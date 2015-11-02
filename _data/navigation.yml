@@ -1,0 +1,15 @@
+- label: Adapters
+  url: /adapters/
+
+- label: Clients
+  url: /clients/
+
+- label: Documentation
+  icon: book
+  url: http://docs.httplug.io
+  external: true
+
+- label: Source
+  icon: github
+  url: https://github.com/php-http/httplug
+  external: true

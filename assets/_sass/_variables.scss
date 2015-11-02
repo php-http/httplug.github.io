@@ -1,0 +1,9 @@
+@import "bootstrap/vendor/variables";
+@import "font-awesome/vendor/variables";
+
+// Will be possible in 2nd alpha
+// See: https://github.com/twbs/bootstrap/issues/17046
+//$enable-flex: true;
+
+$header-height: 60px;
+$footer-height: 200px;

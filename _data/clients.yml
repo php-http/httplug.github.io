@@ -1,0 +1,4 @@
+- id: socket
+  label: Socket
+  homepage: https://github.com/php-http/socket-client
+  status: wip
