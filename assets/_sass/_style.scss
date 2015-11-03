@@ -1,0 +1,67 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    padding-top: $header-height;
+    padding-bottom: $footer-height + 30px;
+}
+
+footer[role="contentinfo"] {
+    background-color: darken($gray-dark, 8%);
+    bottom: 0;
+    color: $gray-lightest;
+    height: $footer-height;
+    padding: 30px 0 20px 0;
+    position: absolute;
+    width: 100%;
+
+    a {
+        color: $gray-lightest;
+    }
+
+    ul {
+        list-style: none;
+    }
+}
+
+.alphalert {
+    background-color: $brand-warning;
+    padding-top: 1rem;
+}
+
+.masthead {
+    background-color: $brand-info;
+    text-align: center;
+    color: #FFFFFF;
+
+    .tempicon {
+        background-color: transparent;
+        border: 1px solid lighten($brand-info, 40%);
+        margin: 0 auto 30px;
+        width: 144px;
+        height: 144px;
+        font-size: 108px;
+        line-height: 140px;
+        display: block;
+        font-weight: 500;
+        cursor: default;
+        border-radius: 15%;
+    }
+}
+
+@include media-breakpoint-up(sm) {
+    .masthead {
+        padding: 80px 0;
+
+        p.lead {
+            font-size: 30px;
+        }
+    }
+}
+
+.feature {
+    padding: 60px 0;
+    border-bottom: 1px solid #e5e5e5;
+}

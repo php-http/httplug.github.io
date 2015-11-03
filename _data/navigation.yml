@@ -1,15 +1,19 @@
-- label: Adapters
-  url: /adapters/
-
 - label: Clients
-  url: /clients/
+  title: Packages implementing our virtual package
+  url: https://packagist.org/providers/php-http/client-implementation
+  external: true
 
-- label: Documentation
-  icon: book
+- icon: book
+  title: Documentation
   url: http://docs.httplug.io
   external: true
 
-- label: Source
-  icon: github
+- icon: github
+  title: Github
   url: https://github.com/php-http/httplug
+  external: true
+
+- icon: twitter
+  title: Twitter
+  url: https://twitter.com/httplug
   external: true

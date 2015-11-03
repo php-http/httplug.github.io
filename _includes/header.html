@@ -1,21 +1,17 @@
 <header role="banner">
-    <nav class="navbar navbar-fixed-top navbar-light bg-faded" role="navigation">
+    <nav class="navbar navbar-fixed-top navbar-dark bg-primary" role="navigation">
         <div class="container">
-            <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2">
-                &#9776;
-            </button>
-            <div class="collapse navbar-toggleable-xs" id="exCollapsingNavbar2">
-                <a class="navbar-brand" href="/">HTTPlug</a>
-                <ul class="nav navbar-nav pull-right">
-                    {% for item in site.data.navigation %}
-                        <li class="nav-item{% if page.url == item.url %} active{% endif %}">
-                            <a class="nav-link" href="{{ item.url }}"{% if item.external %} target="_blank"{% endif %}>
-                                {% if item.icon %}<span class="fa fa-{{ item.icon }}"></span> {% endif %}{{ item.label }}
-                            </a>
-                        </li>
-                    {% endfor %}
-                </ul>
-            </div>
+            <a class="navbar-brand" href="/">HTTPlug</a>
+            <ul class="nav navbar-nav pull-right">
+                {% for item in site.data.navigation %}
+                    <li class="nav-item{% if page.url == item.url %} active{% endif %}">
+                        <a class="nav-link" href="{{ item.url }}"{% if item.title %} title="{{ item.title }}"{% endif %}{% if item.external %} target="_blank"{% endif %}>
+                            {% if item.icon %}<span class="fa fa-{{ item.icon }}"></span> {% endif %}
+                            {% if item.label %}{{ item.label }}{% endif %}
+                        </a>
+                    </li>
+                {% endfor %}
+            </ul>
         </div>
     </nav>
 </header>
