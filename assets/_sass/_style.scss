@@ -36,7 +36,7 @@ footer[role="contentinfo"] {
     text-align: center;
     color: #FFFFFF;
 
-    .tempicon {
+    .templogo {
         background-color: transparent;
         border: 1px solid lighten($brand-info, 40%);
         margin: 0 auto 30px;
@@ -48,6 +48,11 @@ footer[role="contentinfo"] {
         font-weight: 500;
         cursor: default;
         border-radius: 15%;
+    }
+
+    .icon-link {
+        font-size: $font-size-h1;
+        color: #ffffff;
     }
 }
 
