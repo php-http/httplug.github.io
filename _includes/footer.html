@@ -1,33 +1,33 @@
 <footer role="contentinfo">
     <div class="container">
         <div class="row">
-            <div class="col-md-4">
-                <ul class="contact-list">
-                    <li>{{ site.title }}</li>
-                    <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-                </ul>
-            </div>
-            <div class="col-md-4">
-                <ul class="social-media-list">
-                    {% if site.github_username %}
+            <div class="col-md-12">
+                <ul class="social-buttons">
                     <li>
-                        <a href="https://github.com/{{ site.github_username }}">
-                            <span class="fa fa-github"></span> <span class="username">{{ site.github_username }}</span>
-                        </a>
+                        <iframe src="https://ghbtns.com/github-btn.html?user=php-http&repo=httplug&type=star&count=true" frameborder="0" scrolling="0" width="80px" height="20px"></iframe>
                     </li>
-                    {% endif %}
+                    <li>
+                        <iframe src="https://ghbtns.com/github-btn.html?user=php-http&repo=httplug&type=fork&count=true" frameborder="0" scrolling="0" width="80px" height="20px"></iframe>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/httplug" class="twitter-follow-button" data-show-count="false">Follow @httplug</a>
+                        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://httplug.io" data-text="Httplug - The HTTP client abstraction for PHP." data-via="httplug">Tweet</a>
+                        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+                    </li>
+                    <li>
+                        <script async defer src="http://slack.httplug.io/slackin.js"></script>
+                    </li>
+                </ul>
+                <p>
+                    Designed and built with all the love in the world by @php-http.<br>
 
-                    {% if site.twitter_username %}
-                    <li>
-                        <a href="https://twitter.com/{{ site.twitter_username }}">
-                            <span class="fa fa-twitter"></span> <span class="username">{{ site.twitter_username }}</span>
-                        </a>
-                    </li>
-                    {% endif %}
-                </ul>
-            </div>
-            <div class="col-md-4">
-                <p>{{ site.description }}</p>
+                    Maintained by the <a href="https://github.com/orgs/php-http/people" target="_blank">core team</a> with the help of <a href="https://github.com/php-http/httplug/graphs/contributors" target="_blank">our contributors</a>.<br>
+
+                    Code licensed under <a href="https://github.com/php-http/httplug/blob/master/LICENSE" target="_blank">MIT</a>.
+                </p>
             </div>
         </div>
     </div>

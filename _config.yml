@@ -12,3 +12,6 @@ sass:
 
 # Build settings
 markdown: kramdown
+
+gems:
+  - jekyll-mentions

@@ -5,24 +5,29 @@ html {
 
 body {
     padding-top: $header-height;
-    padding-bottom: $footer-height + 30px;
 }
 
 footer[role="contentinfo"] {
-    background-color: darken($gray-dark, 8%);
-    bottom: 0;
-    color: $gray-lightest;
+    border-top: 1px solid #E5E5E5;
+    color: $gray-light;
     height: $footer-height;
     padding: 30px 0 20px 0;
     position: absolute;
+    text-align: center;
     width: 100%;
-
-    a {
-        color: $gray-lightest;
-    }
 
     ul {
         list-style: none;
+    }
+
+    ul.social-buttons {
+        list-style-type: none;
+
+        li {
+            display: inline-block;
+            line-height: 1;
+            padding: 5px 8px;
+        }
     }
 }
 
@@ -49,16 +54,6 @@ footer[role="contentinfo"] {
         cursor: default;
         border-radius: 15%;
     }
-
-    ul.social-buttons {
-        list-style-type: none;
-
-        li {
-            display: inline-block;
-            line-height: 1;
-            padding: 5px 8px;
-        }
-    }
 }
 
 @include media-breakpoint-up(sm) {
@@ -73,5 +68,4 @@ footer[role="contentinfo"] {
 
 .feature {
     padding: 60px 0;
-    border-bottom: 1px solid #e5e5e5;
 }
