@@ -1,6 +1,6 @@
-title: HTTPlug
+title: Httplug
 email: team@httplug.io
-description: HTTPlug, the HTTP client abstraction for PHP.
+description: Httplug, the HTTP client abstraction for PHP.
 baseurl: ""
 url: "http://httplug.io"
 twitter_username: httplug

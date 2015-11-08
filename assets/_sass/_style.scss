@@ -50,9 +50,14 @@ footer[role="contentinfo"] {
         border-radius: 15%;
     }
 
-    .icon-link {
-        font-size: $font-size-h1;
-        color: #ffffff;
+    ul.social-buttons {
+        list-style-type: none;
+
+        li {
+            display: inline-block;
+            line-height: 1;
+            padding: 5px 8px;
+        }
     }
 }
 
