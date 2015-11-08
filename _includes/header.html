@@ -1,7 +1,7 @@
 <header role="banner">
     <nav class="navbar navbar-fixed-top navbar-dark bg-primary" role="navigation">
         <div class="container">
-            <a class="navbar-brand" href="/">HTTPlug</a>
+            <a class="navbar-brand" href="/">{{ site.title }}</a>
             <ul class="nav navbar-nav pull-right">
                 {% for item in site.data.navigation %}
                     <li class="nav-item{% if page.url == item.url %} active{% endif %}">
