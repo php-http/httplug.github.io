@@ -11,5 +11,10 @@ $brand-success: #84c341;
 $brand-warning: #fbbd12;
 $brand-danger: #f05223;
 
-$header-height: 54px;
-$footer-height: 200px;
+//$header-height: 54px;
+$header-height: 3.375rem;
+//$footer-height: 200px;
+$footer-height: 12.5rem;
+
+$navbar-light-color:                $brand-primary;
+$navbar-light-hover-color:          $brand-info;

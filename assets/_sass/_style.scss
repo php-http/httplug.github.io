@@ -7,6 +7,18 @@ body {
     padding-top: $header-height;
 }
 
+header[role="banner"] {
+    nav[role="navigation"] {
+        .navbar-brand > img {
+            height: $header-height - $navbar-padding-horizontal;
+        }
+
+        .nav-item {
+            color: $brand-primary;
+        }
+    }
+}
+
 footer[role="contentinfo"] {
     border-top: 1px solid #E5E5E5;
     color: $gray-light;
@@ -41,18 +53,9 @@ footer[role="contentinfo"] {
     text-align: center;
     color: #FFFFFF;
 
-    .templogo {
-        background-color: transparent;
-        border: 1px solid lighten($brand-info, 40%);
-        margin: 0 auto 30px;
-        width: 144px;
-        height: 144px;
-        font-size: 108px;
-        line-height: 140px;
-        display: block;
-        font-weight: 500;
-        cursor: default;
-        border-radius: 15%;
+    .silhouette {
+        width: 250px;
+        margin-bottom: 30px;
     }
 }
 

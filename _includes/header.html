@@ -1,7 +1,9 @@
 <header role="banner">
-    <nav class="navbar navbar-fixed-top navbar-dark bg-primary" role="navigation">
+    <nav class="navbar navbar-fixed-top navbar-light bg-faded" role="navigation">
         <div class="container">
-            <a class="navbar-brand" href="/">{{ site.title }}</a>
+            <a class="navbar-brand" href="/">
+                <img src="{{ '/assets/img/logo.png' | prepend: site.baseurl }}" alt="{{ site.title }}">
+            </a>
             <ul class="nav navbar-nav pull-right">
                 {% for item in site.data.navigation %}
                     <li class="nav-item{% if page.url == item.url %} active{% endif %}">
