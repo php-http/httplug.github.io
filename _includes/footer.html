@@ -4,17 +4,17 @@
             <div class="col-md-12">
                 <ul class="social-buttons">
                     <li>
-                        <iframe src="https://ghbtns.com/github-btn.html?user=php-http&repo=httplug&type=star&count=true" frameborder="0" scrolling="0" width="80px" height="20px"></iframe>
+                        <iframe src="https://ghbtns.com/github-btn.html?user={{ site.github_username }}&repo={{ site.github_reponame }}&type=star&count=true" frameborder="0" scrolling="0" width="80px" height="20px"></iframe>
                     </li>
                     <li>
-                        <iframe src="https://ghbtns.com/github-btn.html?user=php-http&repo=httplug&type=fork&count=true" frameborder="0" scrolling="0" width="80px" height="20px"></iframe>
+                        <iframe src="https://ghbtns.com/github-btn.html?user={{ site.github_username }}&repo={{ site.github_reponame }}&type=fork&count=true" frameborder="0" scrolling="0" width="80px" height="20px"></iframe>
                     </li>
                     <li>
-                        <a href="https://twitter.com/httplug" class="twitter-follow-button" data-show-count="false">Follow @httplug</a>
+                        <a href="https://twitter.com/{{ site.twitter_username }}" class="twitter-follow-button" data-show-count="false">Follow @{{ site.twitter_username }}</a>
                         <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
                     </li>
                     <li>
-                        <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://httplug.io" data-text="Httplug - The HTTP client abstraction for PHP." data-via="httplug">Tweet</a>
+                        <a href="https://twitter.com/share" class="twitter-share-button" data-url="{{ site.url }}" data-text="HTTPlug - The HTTP client abstraction for PHP." data-via="{{ site.twitter_username }}">Tweet</a>
                         <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
                     </li>
                     <li>
@@ -22,11 +22,11 @@
                     </li>
                 </ul>
                 <p>
-                    Designed and built with all the love in the world by <a href="https://github.com/php-http">@php-http</a>.<br>
+                    Designed and built with all the love in the world by <a href="https://github.com/{{ site.github_username }}">@{{ site.github_username }}</a>.<br>
 
-                    Maintained by the <a href="https://github.com/orgs/php-http/people" target="_blank">core team</a> with the help of <a href="https://github.com/php-http/httplug/graphs/contributors" target="_blank">our contributors</a>.<br>
+                    Maintained by the <a href="https://github.com/orgs/{{ site.github_username }}/people" target="_blank">core team</a> with the help of <a href="https://github.com/{{ site.github_username }}/{{ site.github_reponame }}/graphs/contributors" target="_blank">our contributors</a>.<br>
 
-                    Code licensed under <a href="https://github.com/php-http/httplug/blob/master/LICENSE" target="_blank">MIT</a>.
+                    Code licensed under <a href="https://github.com/{{ site.github_username }}/{{ site.github_reponame }}/blob/master/LICENSE" target="_blank">MIT</a>.
                 </p>
             </div>
         </div>
