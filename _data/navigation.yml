@@ -21,3 +21,7 @@
   title: Twitter
   url: https://twitter.com/httplug
   external: true
+
+- icon: newspaper-o
+  title: Media
+  url: /media.html

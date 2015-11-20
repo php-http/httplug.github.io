@@ -1,12 +1,3 @@
-html {
-    position: relative;
-    min-height: 100%;
-}
-
-body {
-    padding-top: $header-height;
-}
-
 header[role="banner"] {
     nav[role="navigation"] {
         .navbar-brand > img {
@@ -74,5 +65,15 @@ footer[role="contentinfo"] {
 
     img.featured-image {
         width: 80%;
+    }
+}
+
+
+#media {
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    .embed {
+        margin-bottom: 30px;
     }
 }
