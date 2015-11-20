@@ -1,9 +1,10 @@
-- label: Clients
-  title: Packages implementing our virtual package
+- icon: plug
+  title: Clients
   url: https://packagist.org/providers/php-http/client-implementation
   external: true
 
-- label: Plugins
+- icon: puzzle-piece
+  title: Plugins
   url: https://github.com/php-http/plugins
   external: true
 

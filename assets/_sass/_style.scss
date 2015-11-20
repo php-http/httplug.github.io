@@ -32,6 +32,16 @@ footer[role="contentinfo"] {
             padding: 5px 8px;
         }
     }
+
+    nav.menu {
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+        .nav-link {
+            margin-right: 30px;
+        }
+    }
+
 }
 
 .alphalert {
