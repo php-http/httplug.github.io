@@ -5,12 +5,12 @@
 
 - icon: puzzle-piece
   title: Plugins
-  url: https://github.com/php-http/plugins
+  url: http://docs.php-http.org/en/latest/plugins/index.html
   external: true
 
 - icon: book
   title: Documentation
-  url: http://docs.httplug.io
+  url: http://docs.php-http.org/en/latest/httplug/introduction.html
   external: true
 
 - icon: github
