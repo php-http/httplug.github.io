@@ -1,4 +1,13 @@
-# Client Cloud documenttion
+# Resources
+
+This pge documents a few resources on the website.
+
+## Diagram
+
+The diagram is created using [yED](https://www.yworks.com/products/yed).
+
+
+## Client Tag Cloud
 
 The Client cloud on the home page is created the following way:
 
