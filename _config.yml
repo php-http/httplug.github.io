@@ -6,6 +6,7 @@ url: "http://httplug.io"
 twitter_username: httplug
 github_username: php-http
 github_reponame: httplug
+exclude: [vendor]
 
 sass:
   sass_dir: assets/_sass
