@@ -78,6 +78,12 @@ footer[role="contentinfo"] {
     }
 }
 
-.third-party .row {
-  padding-bottom: 1rem;
+.third-party {
+  .row {
+    padding-bottom: 1rem;
+  }
+
+  img {
+    width: 50px;
+  }
 }
